@@ -24,6 +24,7 @@ This year, I will be writing solutions in:
 
 ## Directory Structure
 
+```
 advent-of-code-2023/
 │
 ├── day1/
@@ -37,6 +38,7 @@ advent-of-code-2023/
 │ └── input.txt
 │
 └── ...
+```
 
 Each day's challenge will have its own directory containing:
 
