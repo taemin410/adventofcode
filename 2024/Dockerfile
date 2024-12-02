@@ -11,4 +11,4 @@ COPY . .
 # RUN pip install --no-cache-dir -r requirements.txt
 
 # Command to run the Python script (change this to the specific day you want to run)
-CMD ["python", "day1/solution.py"]
+CMD ["python", "day2/solution.py"]

@@ -5,4 +5,4 @@ services:
     build: .
     volumes:
       - .:/app
-    command: python day1/solution_p2.py # Change this to the specific day you want to run
+    command: python day2/solution.py # Change this to the specific day you want to run
