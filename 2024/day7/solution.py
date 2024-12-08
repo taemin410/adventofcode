@@ -1,6 +1,5 @@
 
-import numpy as np
-
+from collections import deque
 
 f = open("day7.input", "r+")
 
@@ -21,13 +20,13 @@ for line in lines:
     operands = [ int(i) for i in numbers[1].strip().split(" ")] 
 
 
-    queue = []
+    queue = deque()
 
     x = 0
     queue.append((operands[x], x))
     while len(queue) > 0: 
         
-        ans, pos = queue.pop(0)
+        ans, pos = queue.popleft()
         if pos + 1 == len(operands):
             #print(ans)
             if ans == result:
